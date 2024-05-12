@@ -100,7 +100,6 @@ mod test {
             10
         );
 
-
         let decrement_value = 10u32;
         decrement_instruction_data.extend_from_slice(&decrement_value.to_le_bytes());
 
@@ -121,8 +120,6 @@ mod test {
                 .counter,
             0
         );
-
-
 
         let update_value = 33u32;
         update_instruction_data.extend_from_slice(&update_value.to_le_bytes());
